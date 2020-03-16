@@ -67,6 +67,7 @@ if ($uploadOk == 0) {
 
 					if ($conn->query($sql) === TRUE) {
 						echo "New record created successfully";
+						header("Location:view.php");
 					} else {
 						echo "Error: " . $sql . "<br>" . $conn->error;
 					}

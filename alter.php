@@ -186,6 +186,7 @@ $quantity=$_GET["quantity"];
 
 					if ($conn->query($sql) === TRUE) {
 						echo "New record created successfully";
+						header("Location:show.php");
 					} else {
 						echo "Error: " . $sql . "<br>" . $conn->error;
 					}

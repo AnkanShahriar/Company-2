@@ -148,7 +148,7 @@
 						echo "<td>Username :</td>";
 						echo "<td>".$row["username"]."</td>";
 						echo "</tr>";
-							$pic=$row["picture"];
+						$pic=$row["picture"];
 						
 						
 					
